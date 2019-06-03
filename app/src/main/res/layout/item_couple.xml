@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        android:id="@+id/cardviewCenter"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="5dp"
+        android:layout_margin="10dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+        <LinearLayout
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+            <LinearLayout
+                    android:id="@+id/contentA"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+                <ImageView
+                        android:id="@+id/ivContentA"
+                        android:src="@drawable/ic_person_black"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="10dp"/>
+                <TextView
+                        android:id="@+id/tvContentA"
+                        android:text="@string/name_example"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:id="@+id/contentB"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+                <ImageView
+                        android:id="@+id/ivContentB"
+                        android:src="@drawable/ic_person_black"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="10dp"/>
+                <TextView
+                        android:id="@+id/tvContentB"
+                        android:text="@string/name_example"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
